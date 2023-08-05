@@ -22,5 +22,8 @@ jobs:
     - name: Check maven installation
       run: mvn -version
 
-    - name: Build Proejct
-      run: mvn clean package -Pbuild-image
+    - name: Check maven installation
+      run: java -version
+      
+    # - name: Build Proejct
+    #   run: mvn clean package -Pbuild-image
