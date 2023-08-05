@@ -20,4 +20,7 @@ jobs:
       run: pwd
 
     - name: Check maven installation
-      run: mvn
+      run: mvn -version
+
+    - name: Build Proejct
+      run: nvm build
