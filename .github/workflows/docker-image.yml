@@ -34,7 +34,7 @@ jobs:
         distribution: zulu
         
     - name: Build Proejct
-      run: mvn clean package -Pbuild-image
+      run: mvn clean package -Pbuild-image -Ppush-image
 
     - name: List images
       run: docker images
