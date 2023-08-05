@@ -24,6 +24,11 @@ jobs:
 
     - name: Check maven installation
       run: java -version
-      
+
+    - uses: actions/setup-java@v2
+      with:
+        java-version: 17
+        distribution: zulu
+        
     - name: Build Proejct
       run: mvn clean package -Pbuild-image
