@@ -23,4 +23,4 @@ jobs:
       run: mvn -version
 
     - name: Build Proejct
-      run: mvn build
+      run: mvn package
