@@ -38,3 +38,17 @@ jobs:
 
     - name: List images
       run: docker images
+
+    - name: Push image
+      run: docker push registry.connextpaas.com/piomin/employee-service:1.2-SNAPSHOT
+
+    - name: Push image
+      run: docker push registry.connextpaas.com/piomin/gateway-service:1.1-SNAPSHOT
+    - name: Push image
+      run: docker push registry.connextpaas.com/piomin/department-service:1.2-SNAPSHOT
+    - name: Push image
+      run: docker push registry.connextpaas.com/piomin/organization-service:1.2-SNAPSHOT
+    - name: Push image
+      run: docker push registry.connextpaas.com/piomin/discovery-service:1.1-SNAPSHOT
+    - name: Push image
+      run: docker push registry.connextpaas.com/piomin/config-service:1.1-SNAPSHOT
