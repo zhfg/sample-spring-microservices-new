@@ -47,7 +47,6 @@
                             <execution>
                                 <goals>
                                     <goal>dockerBuild</goal>
-                                    <goal>dockerPush</goal>
                                 </goals>
                                 <phase>package</phase>
                             </execution>
