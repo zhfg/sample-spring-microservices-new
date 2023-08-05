@@ -96,7 +96,7 @@
                         <artifactId>spring-boot-maven-plugin</artifactId>
                         <configuration>
                             <image>
-                                <name>piomin/${project.artifactId}:${project.version}</name>
+                                <name>registry.connextpaas.com/piomin/${project.artifactId}:${project.version}</name>
                             </image>
                         </configuration>
                         <executions>
