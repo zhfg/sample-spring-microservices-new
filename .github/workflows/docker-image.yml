@@ -32,3 +32,6 @@ jobs:
         
     - name: Build Proejct
       run: mvn clean package -Pbuild-image
+
+    - name: List images
+      run: docker images
